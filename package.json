@@ -1,0 +1,24 @@
+{
+  "name": "malayalam-fonts",
+  "version": "0.0.1",
+  "description": "A collection of open source Malayalam web fonts.",
+  "main": "fonts.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesh-k/malayalam-fonts.git"
+  },
+  "keywords": [
+    "Malayalam",
+    "Webfonts",
+    "fonts"
+  ],
+  "author": "Ramesh Kunnappully",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramesh-k/malayalam-fonts/issues"
+  },
+  "homepage": "https://github.com/ramesh-k/malayalam-fonts#readme"
+}
