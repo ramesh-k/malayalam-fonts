@@ -1,8 +1,8 @@
 {
   "name": "malayalam-fonts",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A collection of open source Malayalam web fonts.",
-  "main": "fonts.min.css",
+  "main": "fonts.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url(fonts/RIT-Rachana/RIT-Rachana-Regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: url(fonts/RIT-Rachana/RIT-Rachana-Bold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: italic;
+	font-weight: normal;
+	font-display: swap;
+	src: url(fonts/RIT-Rachana/RIT-Rachana-Italic.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: italic;
+	font-weight: bold;
+	font-display: swap;
+	src: url(fonts/RIT-Rachana/RIT-Rachana-BoldItalic.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Meera New';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url(fonts/MeeraNew/MeeraNew.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Ezhuthu';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url(fonts/Ezhuthu/Ezhuthu-Regular.woff2) format('woff2');
+}
