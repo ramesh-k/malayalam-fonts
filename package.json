@@ -1,6 +1,6 @@
 {
   "name": "malayalam-fonts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of open source Malayalam web fonts.",
   "main": "fonts.css",
   "scripts": {
@@ -12,8 +12,13 @@
   },
   "keywords": [
     "Malayalam",
+	"Webfont",
     "Webfonts",
-    "fonts"
+	"Font",
+    "Fonts",
+	"Typeface",
+	"SMC",
+	"RIT"
   ],
   "author": "Ramesh Kunnappully",
   "license": "MIT",

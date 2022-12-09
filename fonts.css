@@ -1,7 +1,70 @@
 @font-face {
+	font-family: 'Manjari';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(fonts/Manjari/Manjari-Regular.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
+	font-family: 'Manjari';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url(fonts/Manjari/Manjari-Bold.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
+	font-family: 'Manjari';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100;
+	src: url(fonts/Manjari/Manjari-Thin.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
+	font-family: 'Chilanka';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(fonts/Chilanka/Chilanka-Regular.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
+	font-family: 'Gayathri';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(fonts/Gayathri/Gayathri-Regular.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
+	font-family: 'Gayathri';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url(fonts/Gayathri/Gayathri-Bold.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
+	font-family: 'Gayathri';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100;
+	src: url(fonts/Gayathri/Gayathri-Thin.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+@font-face {
 	font-family: 'RIT Rachana';
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-display: swap;
 	src: url(fonts/RIT-Rachana/RIT-Rachana-Regular.woff2) format('woff2');
 }
@@ -9,7 +72,7 @@
 @font-face {
 	font-family: 'RIT Rachana';
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-display: swap;
 	src: url(fonts/RIT-Rachana/RIT-Rachana-Bold.woff2) format('woff2');
 }
@@ -17,7 +80,7 @@
 @font-face {
 	font-family: 'RIT Rachana';
 	font-style: italic;
-	font-weight: normal;
+	font-weight: 400;
 	font-display: swap;
 	src: url(fonts/RIT-Rachana/RIT-Rachana-Italic.woff2) format('woff2');
 }
@@ -25,7 +88,7 @@
 @font-face {
 	font-family: 'RIT Rachana';
 	font-style: italic;
-	font-weight: bold;
+	font-weight: 700;
 	font-display: swap;
 	src: url(fonts/RIT-Rachana/RIT-Rachana-BoldItalic.woff2) format('woff2');
 }
@@ -33,7 +96,7 @@
 @font-face {
 	font-family: 'Meera New';
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-display: swap;
 	src: url(fonts/MeeraNew/MeeraNew.woff2) format('woff2');
 }
@@ -41,7 +104,63 @@
 @font-face {
 	font-family: 'Ezhuthu';
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-display: swap;
 	src: url(fonts/Ezhuthu/Ezhuthu-Regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'TN Joy';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(fonts/TNJoy/tnjoy-regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'TN Joy';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(fonts/TNJoy/tnjoy-bold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'TN Joy';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url(fonts/TNJoy/tnjoy-extrabold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Panmana';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(fonts/Panmana/Panmana-Regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'RIT Sundar';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(fonts/RIT-Sundar/RIT-Sundar.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Karuna';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(fonts/Karuna/Karuna-Bold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Kutty';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(fonts/Kutty/Kutty-Bold.woff2) format('woff2');
 }

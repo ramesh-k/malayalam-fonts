@@ -2,11 +2,19 @@
 A collection of open source Malayalam web fonts.
 
 ## Fonts
-| **Font Family** | **Version** | **Styles** | **Source** |
-|---|---|---|---|
-| [RIT Rachana](fonts/RIT-Rachana/) | 1.4.1 | Normal, Bold, Italic, Bold Italic | [Link](https://gitlab.com/rit-fonts/RIT-Rachana) |
-| [Meera New](fonts/MeeraNew/) | 1.4.1 | Normal | [Link](https://gitlab.com/rit-fonts/MeeraNew) |
-| [Ezhuthu](fonts/Ezhuthu/) | 1.3 | Normal | [Link](https://gitlab.com/rit-fonts/ezhuthu) |
+| **Font Family** | **Version** | **Source** |
+|---|---|---|
+| [Manjari](fonts/Manjari/) | 2.000 | [Link](https://gitlab.com/smc/fonts/manjari) |
+| [Chilanka](fonts/Chilanka/) | 1.540  | [Link](https://gitlab.com/smc/fonts/chilanka) |
+| [Gayathri](fonts/Gayathri/) | 1.220  | [Link](https://gitlab.com/smc/fonts/gayathri) |
+| [RIT Rachana](fonts/RIT-Rachana/) | 1.4.1 | [Link](https://gitlab.com/rit-fonts/RIT-Rachana) |
+| [Meera New](fonts/MeeraNew/) | 1.4.1 | [Link](https://gitlab.com/rit-fonts/MeeraNew) |
+| [Ezhuthu](fonts/Ezhuthu/) | 1.3 | [Link](https://gitlab.com/rit-fonts/ezhuthu) |
+| [TN Joy](fonts/TNJoy/) | 1.4.1 | [Link](https://gitlab.com/rit-fonts/tnjoy) |
+| [Panmana](fonts/Panmana/) | 1.2 | [Link](https://gitlab.com/rit-fonts/Panmana) |
+| [RIT Sundar](fonts/RIT-Sundar/) | 2.2 | [Link](https://gitlab.com/rit-fonts/Sundar) |
+| [Karuna](fonts/Karuna/) | 1.0 | [Link](https://gitlab.com/rit-fonts/karuna) |
+| [Kutty](fonts/Kutty/) | 1.1 | [Link](https://gitlab.com/rit-fonts/Kutty) |
 
 ## Usage
 Use these fonts directly from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/malayalam-fonts)
@@ -26,3 +34,5 @@ To embed `Meera New` font, copy the code into the `<head>` of your html :
    }
 </style>
 ````
+----
+[![npm](https://img.shields.io/npm/v/malayalam-fonts?color=red)](https://www.npmjs.com/package/malayalam-fonts)
