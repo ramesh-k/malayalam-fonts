@@ -144,7 +144,7 @@
 @font-face {
 	font-family: 'RIT Sundar';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	font-display: swap;
 	src: url(fonts/RIT-Sundar/RIT-Sundar.woff2) format('woff2');
 }
@@ -152,7 +152,7 @@
 @font-face {
 	font-family: 'Karuna';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	font-display: swap;
 	src: url(fonts/Karuna/Karuna-Bold.woff2) format('woff2');
 }
@@ -160,7 +160,7 @@
 @font-face {
 	font-family: 'Kutty';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	font-display: swap;
 	src: url(fonts/Kutty/Kutty-Bold.woff2) format('woff2');
 }
