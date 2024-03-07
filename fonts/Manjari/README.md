@@ -44,7 +44,7 @@ To embed `Manjari` font, copy the code into the `<head>` of your html :
 
 ````
 <style>
-   @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Manjari/main.css');
+   @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Manjari/main.min.css');
    html {
    font-family : 'Manjari';
    font-weight : normal;
