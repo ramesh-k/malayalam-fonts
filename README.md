@@ -6,7 +6,7 @@ A collection of open source Malayalam web fonts.
 |---|---|---|
 | [Manjari](fonts/Manjari/) | 2.200 | [Link](https://gitlab.com/smc/fonts/manjari) |
 | [Chilanka](fonts/Chilanka/) | 1.7 | [Link](https://gitlab.com/smc/fonts/chilanka) |
-| [Gayathri](fonts/Gayathri/) | 1.230 | [Link](https://gitlab.com/smc/fonts/gayathri) |
+| [Gayathri](fonts/Gayathri/) | 1.300 | [Link](https://gitlab.com/smc/fonts/gayathri) |
 | [RIT Rachana](fonts/RIT-Rachana/) | 1.4.2 | [Link](https://gitlab.com/rit-fonts/RIT-Rachana) |
 | [Meera New](fonts/MeeraNew/) | 1.4.1 | [Link](https://gitlab.com/rit-fonts/MeeraNew) |
 | [Ezhuthu](fonts/Ezhuthu/) | 1.3 | [Link](https://gitlab.com/rit-fonts/ezhuthu) |
@@ -26,7 +26,7 @@ Use these fonts directly from [jsDelivr CDN](https://www.jsdelivr.com/package/np
 To embed `Meera New` font, copy the code into the `<head>` of your html :
 ````
 <style>
-   @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts.css');
+   @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts.min.css');
    html {
    font-family : 'Meera New';
    font-weight : normal;
