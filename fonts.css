@@ -150,11 +150,11 @@
 }
 
 @font-face {
-	font-family: 'Karuna';
+	font-family: 'RIT Karuna';
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url(fonts/Karuna/Karuna-Bold.woff2) format('woff2');
+	src: url(fonts/RIT-Karuna/RIT-Karuna-Bold.woff2) format('woff2');
 }
 
 @font-face {

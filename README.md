@@ -13,7 +13,7 @@ A collection of open source Malayalam web fonts.
 | [RIT TN Joy](fonts/RIT-TNJoy/) | 1.5 | [Link](https://gitlab.com/rit-fonts/tnjoy) |
 | [RIT Panmana](fonts/RIT-Panmana/) | 1.3 | [Link](https://gitlab.com/rit-fonts/Panmana) |
 | [RIT Sundar](fonts/RIT-Sundar/) | 2.2 | [Link](https://gitlab.com/rit-fonts/Sundar) |
-| [Karuna](fonts/Karuna/) | 1.0 | [Link](https://gitlab.com/rit-fonts/karuna) |
+| [RIT Karuna](fonts/RIT-Karuna/) | 1.1 | [Link](https://gitlab.com/rit-fonts/karuna) |
 | [Kutty](fonts/Kutty/) | 1.1 | [Link](https://gitlab.com/rit-fonts/Kutty) |
 
 ## Usage
