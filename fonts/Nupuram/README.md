@@ -39,7 +39,7 @@ You can specify the font name in a CSS file, CSS Module, or CSS-in-JS.
 body {
   font-family: 'Nupuram';
   font-size: 18px;
-  font-variation-settings: 'wght' 200, 'wdth' 100, "soft" 50, 'slnt' -10deg; /* Custom axis settings */
+  font-variation-settings: 'wght' 200, 'wdth' 100, "soft" 50, 'slnt' -10; /* Custom axis settings */
 }
 ```
 ---
@@ -54,7 +54,7 @@ To embed `Nupuram` font, copy the code into the `<head>` of your html :
    html {
    font-family: 'Nupuram';
    font-size: 18px;
-   font-variation-settings: 'wght' 200, 'wdth' 100, "soft" 50, 'slnt' -10deg; /* Custom axis settings */
+   font-variation-settings: 'wght' 200, 'wdth' 100, "soft" 50, 'slnt' -10; /* Custom axis settings */
    }
 </style>
 ````

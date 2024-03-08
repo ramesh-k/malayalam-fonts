@@ -40,7 +40,7 @@ You can specify the font name in a CSS file, CSS Module, or CSS-in-JS.
 body {
   font-family: 'Malini';
   font-size: 18px;
-  font-variation-settings: 'wght' 200, 'wdth' 100, 'slnt' -10deg; /* Custom axis settings */
+  font-variation-settings: 'wght' 200, 'wdth' 100, 'slnt' -10; /* Custom axis settings */
 }
 ```
 ---
@@ -55,7 +55,7 @@ To embed `Malini` font, copy the code into the `<head>` of your html :
    html {
    font-family: 'Malini';
    font-size: 18px;
-   font-variation-settings: 'wght' 200, 'wdth' 100, 'slnt' -10deg; /* Custom axis settings */
+   font-variation-settings: 'wght' 200, 'wdth' 100, 'slnt' -10; /* Custom axis settings */
    }
 </style>
 ````
