@@ -1,5 +1,7 @@
 # RIT Karuna
 
+Version: `1.1`
+
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/karuna).
 
 ## Font Files

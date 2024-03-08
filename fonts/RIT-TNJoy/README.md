@@ -1,5 +1,7 @@
 # RIT TN Joy
 
+Version: `1.5`
+
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/tnjoy).
 
 ## Font Files

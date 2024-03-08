@@ -1,5 +1,7 @@
 # Manjari
 
+Version: `2.200`
+
 To learn about this font, please visit the [source](https://gitlab.com/smc/fonts/manjari).
 
 ## Font Files

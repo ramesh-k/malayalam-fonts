@@ -1,5 +1,7 @@
 # Gayathri
 
+Version: `1.300`
+
 To learn about this font, please visit the [source](https://gitlab.com/smc/fonts/Gayathri).
 
 ## Font Files

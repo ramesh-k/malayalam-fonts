@@ -1,5 +1,7 @@
 # Chilanka
 
+Version: `1.7`
+
 To learn about this font, please visit the [source](https://gitlab.com/smc/fonts/chilanka).
 
 ## Font Files
