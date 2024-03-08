@@ -1,0 +1,29 @@
+/* RIT TN Joy */
+
+@font-face {
+	font-family: 'RIT TN Joy';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RIT-tnjoy-regular.woff2) format('woff2');
+}
+
+/* RIT TN Joy Bold*/
+
+@font-face {
+	font-family: 'RIT TN Joy';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-tnjoy-bold.woff2) format('woff2');
+}
+
+/* RIT TN Joy Extra Bold*/
+
+@font-face {
+	font-family: 'RIT TN Joy';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url(RIT-tnjoy-extrabold.woff2) format('woff2');
+}

@@ -110,27 +110,27 @@
 }
 
 @font-face {
-	font-family: 'TN Joy';
+	font-family: 'RIT TN Joy';
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(fonts/TNJoy/tnjoy-regular.woff2) format('woff2');
+	src: url(fonts/RIT-TNJoy/tnjoy-regular.woff2) format('woff2');
 }
 
 @font-face {
-	font-family: 'TN Joy';
+	font-family: 'RIT TN Joy';
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url(fonts/TNJoy/tnjoy-bold.woff2) format('woff2');
+	src: url(fonts/RT-TNJoy/tnjoy-bold.woff2) format('woff2');
 }
 
 @font-face {
-	font-family: 'TN Joy';
+	font-family: 'RIT TN Joy';
 	font-style: normal;
 	font-weight: 800;
 	font-display: swap;
-	src: url(fonts/TNJoy/tnjoy-extrabold.woff2) format('woff2');
+	src: url(fonts/RIT-TNJoy/tnjoy-extrabold.woff2) format('woff2');
 }
 
 @font-face {
