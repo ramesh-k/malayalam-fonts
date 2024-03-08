@@ -1,0 +1,39 @@
+/* RIT Rachana */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RIT-Rachana-Regular.woff2) format('woff2');
+}
+
+/* RIT Rachana Bold */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Rachana-Bold.woff2) format('woff2');
+}
+
+/* RIT Rachana Italic */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RIT-Rachana-Italic.woff2) format('woff2');
+}
+
+/* RIT Rachana Bold Italic */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Rachana-BoldItalic.woff2) format('woff2');
+}
