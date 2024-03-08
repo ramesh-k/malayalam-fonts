@@ -84,6 +84,12 @@
 }
 
 @font-face {
+	font-family: "Nupuram Color";
+	src: url(Nupuram-Color.colrv1.woff2) format("woff2-variations");
+	font-weight: 100 900;
+}
+
+@font-face {
 	font-family: 'RIT Rachana';
 	font-style: normal;
 	font-weight: 400;
