@@ -1,0 +1,7 @@
+/* Nupuram Calligraphy */
+
+@font-face {
+  font-family: "Nupuram Calligraphy";
+  src: url(Nupuram-Calligraphy-VF.woff2) format("woff2-variations");
+  font-weight: 100 900;
+}
