@@ -27,7 +27,7 @@ npm install malayalam-fonts
 In your main application file or website component, import the `RIT TN Joy` font like this:
 
 ```javascript
-import "malayalam-fonts/RIT-TNJoy/main.css";
+import "malayalam-fonts/fonts/RIT-TNJoy/main.css";
 ```
 You can specify the font name in a CSS file, CSS Module, or CSS-in-JS.
 

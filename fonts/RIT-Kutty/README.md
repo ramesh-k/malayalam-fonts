@@ -25,7 +25,7 @@ npm install malayalam-fonts
 In your main application file or website component, import the `RIT Kutty` font like this:
 
 ```javascript
-import "malayalam-fonts/RIT-Kutty/main.css";
+import "malayalam-fonts/fonts/RIT-Kutty/main.css";
 ```
 You can specify the font name in a CSS file, CSS Module, or CSS-in-JS.
 

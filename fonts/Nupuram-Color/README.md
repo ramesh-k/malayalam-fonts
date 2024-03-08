@@ -26,7 +26,7 @@ npm install malayalam-fonts
 In your main application file or website component, import the `Nupuram Color` font like this:
 
 ```javascript
-import "malayalam-fonts/Nupuram-Color/main.css";
+import "malayalam-fonts/fonts/Nupuram-Color/main.css";
 ```
 `Nupuram Color` font gives 18 predefined pallettes that can be selected by users. Or a user can specify the colors in a CSS file, CSS Module, or CSS-in-JS.
 

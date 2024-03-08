@@ -25,7 +25,7 @@ npm install malayalam-fonts
 In your main application file or website component, import the `Nupuram Arrows Color` font like this:
 
 ```javascript
-import "malayalam-fonts/Nupuram-Arrows-Color/main.css";
+import "malayalam-fonts/fonts/Nupuram-Arrows-Color/main.css";
 ```
 `Nupuram Arrows Color` font gives 18 predefined pallettes that can be selected by users. Or a user can specify the colors in a CSS file, CSS Module, or CSS-in-JS.
 

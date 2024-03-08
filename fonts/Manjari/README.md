@@ -27,7 +27,7 @@ npm install malayalam-fonts
 In your main application file or website component, import the `Manjari` font like this:
 
 ```javascript
-import "malayalam-fonts/Manjari/main.css";
+import "malayalam-fonts/fonts/Manjari/main.css";
 ```
 You can specify the font name in a CSS file, CSS Module, or CSS-in-JS.
 
