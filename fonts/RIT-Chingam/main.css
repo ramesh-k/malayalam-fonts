@@ -1,0 +1,9 @@
+/* RIT Chingam */
+
+@font-face {
+	font-family: 'RIT Chingam';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RITChingam.woff2) format('woff2');
+}

@@ -164,3 +164,11 @@
 	font-display: swap;
 	src: url(fonts/RIT-Kutty/RIT-Kutty-Bold.woff2) format('woff2');
 }
+
+@font-face {
+	font-family: 'RIT Chingam';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(fonts/RIT-Chingam/RITChingam.woff2) format('woff2');
+}
