@@ -53,6 +53,9 @@ To embed `Nupuram Display` font, copy the code into the `<head>` of your html :
 </style>
 ````
 ---
+Refer font face defined in [`CSS`](main.css) file.
+
+---
 ## License
 
 See [OFL.txt](OFL.txt)

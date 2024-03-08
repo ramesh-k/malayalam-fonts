@@ -54,6 +54,9 @@ To embed `Nupuram Calligraphy` font, copy the code into the `<head>` of your htm
 </style>
 ````
 ---
+Refer font face defined in [`CSS`](main.css) file.
+
+---
 ## License
 
 See [OFL.txt](OFL.txt)

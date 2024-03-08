@@ -53,6 +53,9 @@ To embed `RIT Meera New` font, copy the code into the `<head>` of your html :
 </style>
 ````
 ---
+Refer font face defined in [`CSS`](main.css) file.
+
+---
 ## License
 
 See [LICENSE.txt](LICENSE.txt)
