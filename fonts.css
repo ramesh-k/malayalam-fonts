@@ -79,14 +79,19 @@
 
 @font-face {
 	font-family: "Nupuram Calligraphy";
-	src: url(Nupuram-Calligraphy-VF.woff2) format("woff2-variations");
+	src: url(fonts/Nupuram-Calligraphy/Nupuram-Calligraphy-VF.woff2) format("woff2-variations");
 	font-weight: 100 900;
 }
 
 @font-face {
 	font-family: "Nupuram Color";
-	src: url(Nupuram-Color.colrv1.woff2) format("woff2-variations");
+	src: url(fonts/Nupuram-Color/Nupuram-Color.colrv1.woff2) format("woff2-variations");
 	font-weight: 100 900;
+}
+
+@font-face {
+	font-family: "Nupuram Dots";
+	src: url(fonts/Nupuram-Dots/Nupuram-Dots.woff2) format("woff2");
 }
 
 @font-face {
