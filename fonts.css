@@ -1,3 +1,5 @@
+/* Manjari */
+
 @font-face {
 	font-family: 'Manjari';
 	font-style: normal;
@@ -6,6 +8,8 @@
 	src: url(fonts/Manjari/Manjari-Regular.woff2) format('woff2');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
+
+/* Manjari Bold */
 
 @font-face {
 	font-family: 'Manjari';
@@ -16,6 +20,8 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
 
+/* Manjari Thin */
+
 @font-face {
 	font-family: 'Manjari';
 	font-style: normal;
@@ -24,6 +30,8 @@
 	src: url(fonts/Manjari/Manjari-Thin.woff2) format('woff2');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
+
+/* Chilanka */
 
 @font-face {
 	font-family: 'Chilanka';
@@ -34,6 +42,8 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
 
+/* Gayathri */
+
 @font-face {
 	font-family: 'Gayathri';
 	font-style: normal;
@@ -42,6 +52,8 @@
 	src: url(fonts/Gayathri/Gayathri-Regular.woff2) format('woff2');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
+
+/* Gayathri Bold */
 
 @font-face {
 	font-family: 'Gayathri';
@@ -52,6 +64,8 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
 
+/* Gayathri Thin */
+
 @font-face {
 	font-family: 'Gayathri';
 	font-style: normal;
@@ -61,6 +75,8 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
 }
 
+/* Malini */
+
 @font-face {
 	font-family: "Malini";
 	src: url(fonts/Malini/Malini-VF.woff2) format("woff2-variations");
@@ -69,13 +85,17 @@
 	font-style: oblique 0deg -15deg;
 }
 
+/* Nupuram */
+
 @font-face {
-    font-family: "Nupuram";
-    src: url(fonts/Nupuram/Nupuram-VF.woff2) format("woff2-variations");
-    font-weight: 100 900;
-    font-stretch: 75% 125%;
-    font-style: oblique 0deg -15deg;
+	font-family: "Nupuram";
+	src: url(fonts/Nupuram/Nupuram-VF.woff2) format("woff2-variations");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	font-style: oblique 0deg -15deg;
 }
+
+/* Nupuram Calligraphy */
 
 @font-face {
 	font-family: "Nupuram Calligraphy";
@@ -83,26 +103,36 @@
 	font-weight: 100 900;
 }
 
+/* Nupuram Color */
+
 @font-face {
 	font-family: "Nupuram Color";
 	src: url(fonts/Nupuram-Color/Nupuram-Color.colrv1.woff2) format("woff2-variations");
 	font-weight: 100 900;
 }
 
+/* Nupuram Arrows Color */
+
 @font-face {
 	font-family: "Nupuram Arrows Color";
 	src: url(fonts/Nupuram-Arrows-Color/Nupuram-Arrows-Color.colrv1.woff2) format("woff2");
 }
+
+/* Nupuram Dots */
 
 @font-face {
 	font-family: "Nupuram Dots";
 	src: url(fonts/Nupuram-Dots/Nupuram-Dots.woff2) format("woff2");
 }
 
+/* Nupuram Display */
+
 @font-face {
 	font-family: "Nupuram Display";
 	src: url(fonts/Nupuram-Display/Nupuram-Display.woff2) format("woff2");
 }
+
+/* RIT Rachana */
 
 @font-face {
 	font-family: 'RIT Rachana';
@@ -112,6 +142,8 @@
 	src: url(fonts/RIT-Rachana/RIT-Rachana-Regular.woff2) format('woff2');
 }
 
+/* RIT Rachana Bold */
+
 @font-face {
 	font-family: 'RIT Rachana';
 	font-style: normal;
@@ -119,6 +151,8 @@
 	font-display: swap;
 	src: url(fonts/RIT-Rachana/RIT-Rachana-Bold.woff2) format('woff2');
 }
+
+/* RIT Rachana Italic */
 
 @font-face {
 	font-family: 'RIT Rachana';
@@ -128,6 +162,8 @@
 	src: url(fonts/RIT-Rachana/RIT-Rachana-Italic.woff2) format('woff2');
 }
 
+/* RIT Rachana Bold Italic */
+
 @font-face {
 	font-family: 'RIT Rachana';
 	font-style: italic;
@@ -135,6 +171,8 @@
 	font-display: swap;
 	src: url(fonts/RIT-Rachana/RIT-Rachana-BoldItalic.woff2) format('woff2');
 }
+
+/* RIT Meera New */
 
 @font-face {
 	font-family: 'RIT Meera New';
@@ -144,6 +182,8 @@
 	src: url(fonts/MeeraNew/RIT-MeeraNew.woff2) format('woff2');
 }
 
+/* RIT Ezhuthu */
+
 @font-face {
 	font-family: 'RIT Ezhuthu';
 	font-style: normal;
@@ -151,6 +191,8 @@
 	font-display: swap;
 	src: url(fonts/Ezhuthu/RIT-Ezhuthu-Regular.woff2) format('woff2');
 }
+
+/* RIT TN Joy */
 
 @font-face {
 	font-family: 'RIT TN Joy';
@@ -160,6 +202,8 @@
 	src: url(fonts/RIT-TNJoy/RIT-tnjoy-regular.woff2) format('woff2');
 }
 
+/* RIT TN Joy Bold*/
+
 @font-face {
 	font-family: 'RIT TN Joy';
 	font-style: normal;
@@ -167,6 +211,8 @@
 	font-display: swap;
 	src: url(fonts/RT-TNJoy/RIT-tnjoy-bold.woff2) format('woff2');
 }
+
+/* RIT TN Joy Extra Bold*/
 
 @font-face {
 	font-family: 'RIT TN Joy';
@@ -176,6 +222,8 @@
 	src: url(fonts/RIT-TNJoy/RIT-tnjoy-extrabold.woff2) format('woff2');
 }
 
+/* RIT Panmana */
+
 @font-face {
 	font-family: 'RIT Panmana';
 	font-style: normal;
@@ -183,6 +231,8 @@
 	font-display: swap;
 	src: url(fonts/RIT-Panmana/RIT-Panmana-Regular.woff2) format('woff2');
 }
+
+/* RIT Sundar */
 
 @font-face {
 	font-family: 'RIT Sundar';
@@ -192,6 +242,8 @@
 	src: url(fonts/RIT-Sundar/RIT-Sundar.woff2) format('woff2');
 }
 
+/* RIT Karuna */
+
 @font-face {
 	font-family: 'RIT Karuna';
 	font-style: normal;
@@ -200,6 +252,8 @@
 	src: url(fonts/RIT-Karuna/RIT-Karuna-Bold.woff2) format('woff2');
 }
 
+/* RIT Kutty */
+
 @font-face {
 	font-family: 'RIT Kutty';
 	font-style: normal;
@@ -207,6 +261,8 @@
 	font-display: swap;
 	src: url(fonts/RIT-Kutty/RIT-Kutty-Bold.woff2) format('woff2');
 }
+
+/* RIT Chingam */
 
 @font-face {
 	font-family: 'RIT Chingam';
