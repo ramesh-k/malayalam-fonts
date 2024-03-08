@@ -65,7 +65,7 @@ To embed `RIT Meera New` font, copy the code into the `<head>` of your html :
 ````
 ---
 
-The CSS file for each font and its usage-related information are contained in their respective font directories under [/fonts](fonts/).
+The CSS file for each font and its usage-related information are contained in their respective font directories under [`/fonts`](fonts/).
 
 ----
 [![npm](https://img.shields.io/npm/v/malayalam-fonts?color=red)](https://www.npmjs.com/package/malayalam-fonts)
