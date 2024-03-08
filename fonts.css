@@ -62,6 +62,14 @@
 }
 
 @font-face {
+	font-family: "Malini";
+	src: url(Malini-VF.woff2) format("woff2-variations");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	font-style: oblique 0deg -15deg;
+  }
+
+@font-face {
 	font-family: 'RIT Rachana';
 	font-style: normal;
 	font-weight: 400;

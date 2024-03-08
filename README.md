@@ -7,6 +7,7 @@ A collection of open source Malayalam web fonts.
 | [Manjari](fonts/Manjari/) | 2.200 |
 | [Chilanka](fonts/Chilanka/) | 1.7 |
 | [Gayathri](fonts/Gayathri/) | 1.300 |
+| [Malini](fonts/Malini/) | 1.000-alpha.11 | (Variable Font) |
 | [RIT Rachana](fonts/RIT-Rachana/) | 1.4.7 |
 | [RIT Meera New](fonts/RIT-MeeraNew/) | 1.5.2 |
 | [RIT Ezhuthu](fonts/RIT-Ezhuthu/) | 1.4 |
