@@ -94,11 +94,11 @@
 }
 
 @font-face {
-	font-family: 'Meera New';
+	font-family: 'RIT Meera New';
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(fonts/MeeraNew/MeeraNew.woff2) format('woff2');
+	src: url(fonts/MeeraNew/RIT-MeeraNew.woff2) format('woff2');
 }
 
 @font-face {
