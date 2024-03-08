@@ -70,7 +70,7 @@ html {
 }
 
 @font-palette-values --custom {
-	font-family: 'NupuramC olor';
+	font-family: 'Nupuram Color';
 	/* Change this to a value between 0 and 18 to chose a supplied palette. */
 	base-palette: 0;
 	/* Or provide the colors directly to override palette */

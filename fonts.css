@@ -179,7 +179,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(fonts/MeeraNew/RIT-MeeraNew.woff2) format('woff2');
+	src: url(fonts/RIT-MeeraNew/RIT-MeeraNew.woff2) format('woff2');
 }
 
 /* RIT Ezhuthu */
@@ -189,7 +189,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(fonts/Ezhuthu/RIT-Ezhuthu-Regular.woff2) format('woff2');
+	src: url(fonts/RIT-Ezhuthu/RIT-Ezhuthu-Regular.woff2) format('woff2');
 }
 
 /* RIT TN Joy */
@@ -209,7 +209,7 @@
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url(fonts/RT-TNJoy/RIT-tnjoy-bold.woff2) format('woff2');
+	src: url(fonts/RIT-TNJoy/RIT-tnjoy-bold.woff2) format('woff2');
 }
 
 /* RIT TN Joy Extra Bold*/
