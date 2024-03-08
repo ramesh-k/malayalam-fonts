@@ -90,6 +90,11 @@
 }
 
 @font-face {
+	font-family: "Nupuram Arrows Color";
+	src: url(fonts/Nupuram-Arrows-Color/Nupuram-Arrows-Color.colrv1.woff2) format("woff2");
+}
+
+@font-face {
 	font-family: "Nupuram Dots";
 	src: url(fonts/Nupuram-Dots/Nupuram-Dots.woff2) format("woff2");
 }

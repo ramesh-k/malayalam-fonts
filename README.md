@@ -11,6 +11,7 @@ A collection of open source Malayalam web fonts.
 | [Nupuram](fonts/Nupuram/) | 1.000-alpha.16 | (Variable Font) |
 | [Nupuram Calligraphy](fonts/Nupuram-Calligraphy/) | 1.000-alpha.16 | (Variable Font) |
 | [Nupuram Color](fonts/Nupuram-Color/) | 1.000-alpha.16 | (Variable Font) |
+| [Nupuram Arrows Color](fonts/Nupuram-Arrows-Color/) | 1.000-alpha.16 |
 | [Nupuram Dots](fonts/Nupuram-Dots/) | 1.000-alpha.16 |
 | [RIT Rachana](fonts/RIT-Rachana/) | 1.4.7 |
 | [RIT Meera New](fonts/RIT-MeeraNew/) | 1.5.2 |
