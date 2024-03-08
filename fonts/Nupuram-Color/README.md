@@ -31,7 +31,7 @@ import "malayalam-fonts/Nupuram-Color/main.css";
 `Nupuram Color` font gives 18 predefined pallettes that can be selected by users. Or a user can specify the colors in a CSS file, CSS Module, or CSS-in-JS.
 
 This color font uses 3 colors for its shadow-ish look. They are Dark, Light, Base colors. Base is the facing color, Light is the central glowing area color. Dark is the color for the shadow part. The colors are used to create a gradient internally.
-The following CSS customizes the pallette to give a rendering given below:
+The following CSS customizes the pallette:
 
 ```css
 
@@ -55,14 +55,14 @@ body {
 
 ### Use these fonts directly from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/malayalam-fonts)
 
-To embed `Nupuram Calligraphy` font, copy the code into the `<head>` of your html :
+To embed `Nupuram Color` font, copy the code into the `<head>` of your html :
 
 ````css
 <style>
 
 @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Nupuram-Color/main.min.css');
 
-body {
+html {
 	font-family: 'Nupuram Color';
 	font-size: 48px;
 	font-variation-settings: "wght" 400;	/* Custom axis settings */
