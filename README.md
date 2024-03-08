@@ -14,7 +14,7 @@ A collection of open source Malayalam web fonts.
 | [RIT Panmana](fonts/RIT-Panmana/) | 1.3 | [Link](https://gitlab.com/rit-fonts/Panmana) |
 | [RIT Sundar](fonts/RIT-Sundar/) | 2.2 | [Link](https://gitlab.com/rit-fonts/Sundar) |
 | [RIT Karuna](fonts/RIT-Karuna/) | 1.1 | [Link](https://gitlab.com/rit-fonts/karuna) |
-| [Kutty](fonts/Kutty/) | 1.1 | [Link](https://gitlab.com/rit-fonts/Kutty) |
+| [RIT Kutty](fonts/RIT-Kutty/) | 1.2 | [Link](https://gitlab.com/rit-fonts/Kutty) |
 
 ## Usage
 Use these fonts directly from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/malayalam-fonts)
