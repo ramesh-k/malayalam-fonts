@@ -9,7 +9,7 @@ A collection of open source Malayalam web fonts.
 | [Gayathri](fonts/Gayathri/) | 1.300 | [Link](https://gitlab.com/smc/fonts/gayathri) |
 | [RIT Rachana](fonts/RIT-Rachana/) | 1.4.7 | [Link](https://gitlab.com/rit-fonts/RIT-Rachana) |
 | [RIT Meera New](fonts/RIT-MeeraNew/) | 1.5.2 | [Link](https://gitlab.com/rit-fonts/MeeraNew) |
-| [Ezhuthu](fonts/Ezhuthu/) | 1.3 | [Link](https://gitlab.com/rit-fonts/ezhuthu) |
+| [RIT Ezhuthu](fonts/RIT-Ezhuthu/) | 1.4 | [Link](https://gitlab.com/rit-fonts/ezhuthu) |
 | [TN Joy](fonts/TNJoy/) | 1.4.1 | [Link](https://gitlab.com/rit-fonts/tnjoy) |
 | [Panmana](fonts/Panmana/) | 1.2 | [Link](https://gitlab.com/rit-fonts/Panmana) |
 | [RIT Sundar](fonts/RIT-Sundar/) | 2.2 | [Link](https://gitlab.com/rit-fonts/Sundar) |
