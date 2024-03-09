@@ -42,7 +42,7 @@ body {
 
 To embed `RIT Karuna` font, copy the code into the `<head>` of your html :
 
-````
+```css
 <style>
    @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/RIT-Karuna/main.min.css');
    html {
@@ -51,8 +51,7 @@ To embed `RIT Karuna` font, copy the code into the `<head>` of your html :
    font-style  : normal;
    }
 </style>
-````
----
+```
 Refer font face defined in [`CSS`](main.css) file.
 
 ---

@@ -48,7 +48,7 @@ body {
 
 To embed `Nupuram` font, copy the code into the `<head>` of your html :
 
-````
+```css
 <style>
    @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Nupuram/main.min.css');
    html {
@@ -57,9 +57,18 @@ To embed `Nupuram` font, copy the code into the `<head>` of your html :
    font-variation-settings: 'wght' 200, 'wdth' 100, "soft" 50, 'slnt' -10; /* Custom axis settings */
    }
 </style>
-````
----
+```
 Refer font face defined in [`CSS`](main.css) file.
+
+---
+### Choosing Font Feature with CSS
+
+To select specific font features using CSS, you can utilise the `font-feature-settings` property. Follow these steps to apply different features to elements or classes within your html:
+
+```css
+/* Contextual alternates */
+font-feature-settings: "calt" 1;
+```
 
 ---
 ## License

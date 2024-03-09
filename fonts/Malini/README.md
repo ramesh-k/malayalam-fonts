@@ -49,7 +49,7 @@ body {
 
 To embed `Malini` font, copy the code into the `<head>` of your html :
 
-````
+```css
 <style>
    @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Malini/main.min.css');
    html {
@@ -58,9 +58,21 @@ To embed `Malini` font, copy the code into the `<head>` of your html :
    font-variation-settings: 'wght' 200, 'wdth' 100, 'slnt' -10; /* Custom axis settings */
    }
 </style>
-````
----
+```
 Refer font face defined in [`CSS`](main.css) file.
+
+---
+### Choosing Font Feature with CSS
+
+To select specific font features using CSS, you can utilise the `font-feature-settings` property. Follow these steps to apply different features to elements or classes within your html:
+
+```css
+/* Apply Style 1 */
+font-feature-settings: "salt" 1;
+
+/* Apply Style 2 */
+font-feature-settings: "salt" 2;
+```
 
 ---
 ## License

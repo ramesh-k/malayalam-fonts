@@ -44,7 +44,7 @@ body {
 
 To embed `Manjari` font, copy the code into the `<head>` of your html :
 
-````
+```css
 <style>
    @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Manjari/main.min.css');
    html {
@@ -53,9 +53,30 @@ To embed `Manjari` font, copy the code into the `<head>` of your html :
    font-style  : normal;
    }
 </style>
-````
----
+```
 Refer font face defined in [`CSS`](main.css) file.
+
+---
+### Choosing Font Feature with CSS
+
+To select specific font features using CSS, you can utilise the `font-feature-settings` property. Follow these steps to apply different features to elements or classes within your html:
+
+```css
+/* Apply Style 1 */
+font-feature-settings: "salt" 1;
+
+/* Apply Style 2 */
+font-feature-settings: "salt" 2;
+
+/* Apply Tabular Figure */
+font-feature-settings: "tnum" 1;
+
+/* Apply Slashed Zero */
+font-feature-settings: "zero" 1;
+
+/* Apply Multiple features */
+font-feature-settings: "tnum" 1, "zero" 1, "salt" 2;
+```
 
 ---
 ## License

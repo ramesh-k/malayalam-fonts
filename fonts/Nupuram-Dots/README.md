@@ -42,7 +42,7 @@ body {
 
 To embed `Nupuram Dots` font, copy the code into the `<head>` of your html :
 
-````css
+```css
 <style>
    @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts/Nupuram-Dots/main.min.css');
    html {
@@ -51,9 +51,18 @@ To embed `Nupuram Dots` font, copy the code into the `<head>` of your html :
    font-style  : normal;
    }
 </style>
-````
----
+```
 Refer font face defined in [`CSS`](main.css) file.
+
+---
+### Choosing Font Feature with CSS
+
+To select specific font features using CSS, you can utilise the `font-feature-settings` property. Follow these steps to apply different features to elements or classes within your html:
+
+```css
+/* Contextual alternates */
+font-feature-settings: "calt" 1;
+```
 
 ---
 ## License

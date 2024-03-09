@@ -53,7 +53,7 @@ body {
 
 To embed `RIT Meera New` font, copy the code into the `<head>` of your html :
 
-````
+```css
 <style>
    @import url('https://cdn.jsdelivr.net/npm/malayalam-fonts@latest/fonts.min.css');
    html {
@@ -62,7 +62,7 @@ To embed `RIT Meera New` font, copy the code into the `<head>` of your html :
    font-style  : normal;
    }
 </style>
-````
+```
 ---
 
 The CSS file for each font and its usage-related information are contained in their respective font directories under [`fonts`](fonts/).
