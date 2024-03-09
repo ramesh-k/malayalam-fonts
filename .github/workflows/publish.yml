@@ -17,13 +17,20 @@ jobs:
       - name: Determine release type
         id: release_type
         run: |
-          if [[ ${{ github.event.release.tag_name }} == *"alpha"* ]]; then
+          TAG_NAME="${{ github.event.release.tag_name }}"
+          if [[ $TAG_NAME == *"alpha"* ]]; then
             echo "alpha"
-          elif [[ ${{ github.event.release.tag_name }} == *"beta"* ]]; then
+          elif [[ $TAG_NAME == *"beta"* ]]; then
             echo "beta"
           else
             echo "normal"
           fi
+      - name: Extract tag version
+        id: extract_tag_version
+        run: echo ::set-output name=tag_version::$(echo "${{ github.event.release.tag_name }}" | sed 's/^v//')
+      - name: Update package.json with tag version
+        run: |
+          sed -i 's/"version": "[^"]*"/"version": "${{ steps.extract_tag_version.outputs.tag_version }}"/' package.json
       - name: Publish package on NPM 📦
         run: |
           if [[ "${{ steps.release_type.outputs.release_type }}" == "alpha" ]]; then
