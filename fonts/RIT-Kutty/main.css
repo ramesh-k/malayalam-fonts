@@ -1,0 +1,9 @@
+/* RIT Kutty */
+
+@font-face {
+	font-family: 'RIT Kutty';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Kutty-Bold.woff2) format('woff2');
+}

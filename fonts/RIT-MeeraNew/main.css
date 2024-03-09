@@ -1,0 +1,9 @@
+/* RIT Meera New */
+
+@font-face {
+	font-family: 'RIT Meera New';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RIT-MeeraNew.woff2) format('woff2');
+}

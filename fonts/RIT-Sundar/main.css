@@ -1,0 +1,9 @@
+/* RIT Sundar */
+
+@font-face {
+	font-family: 'RIT Sundar';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Sundar.woff2) format('woff2');
+}
