@@ -10,6 +10,7 @@ To learn about this font, please visit the [source](https://gitlab.com/smc/fonts
 
 ## Variation axes
 
+
 | Axis       | Tag    | Range        | Default | Description                                                     |
 | ---------- | ------ | ------------ | ------- | --------------------------------------------------------------- |
 | Weight  | `wght` | 100 to 900       | 400       | Thin to Black. Can be defined with usual font-weight property. 

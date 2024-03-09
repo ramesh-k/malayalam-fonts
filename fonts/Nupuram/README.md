@@ -10,7 +10,6 @@ To learn about this font, please visit the [source](https://gitlab.com/smc/fonts
 
 ## Variation axes
 
-Nupuram has the following axes:
 
 | Axis       | Tag    | Range        | Default | Description                                                     |
 | ---------- | ------ | ------------ | ------- | --------------------------------------------------------------- |
