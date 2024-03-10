@@ -8,34 +8,40 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
-      - name: Install dependencies
-        run: npm ci
+          registry-url: 'https://registry.npmjs.org'
+
       - name: Determine release type
         id: release_type
         run: |
           TAG_NAME="${{ github.event.release.tag_name }}"
-          if [[ $TAG_NAME == *"alpha"* ]]; then
-            echo "alpha"
-          elif [[ $TAG_NAME == *"beta"* ]]; then
-            echo "beta"
+          echo "Tag Name is: $TAG_NAME"
+          if [[ $TAG_NAME == *"-alpha"* ]]; then
+            echo "RELEASE_TYPE=alpha" >> $GITHUB_ENV
+          elif [[ $TAG_NAME == *"-beta"* ]]; then
+            echo "RELEASE_TYPE=beta" >> $GITHUB_ENV
           else
-            echo "normal"
+            echo "RELEASE_TYPE=normal" >> $GITHUB_ENV
           fi
+
       - name: Extract tag version
         id: extract_tag_version
-        run: echo ::set-output name=tag_version::$(echo "${{ github.event.release.tag_name }}" | sed 's/^v//')
+        run: echo "TAG_VERSION=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
+
       - name: Update package.json with tag version
         run: |
-          sed -i 's/"version": "[^"]*"/"version": "${{ steps.extract_tag_version.outputs.tag_version }}"/' package.json
+          sed -i 's/"version": "[^"]*"/"version": "${{ env.TAG_VERSION }}"/' package.json
+
       - name: Publish package on NPM 📦
         run: |
-          if [[ "${{ steps.release_type.outputs.release_type }}" == "alpha" ]]; then
+          echo "Release type is: ${{ env.RELEASE_TYPE }}"
+          if [[ "${{ env.RELEASE_TYPE }}" == "alpha" ]]; then
             npm publish --tag alpha
-          elif [[ "${{ steps.release_type.outputs.release_type }}" == "beta" ]]; then
+          elif [[ "${{ env.RELEASE_TYPE }}" == "beta" ]]; then
             npm publish --tag beta
           else
             npm publish
