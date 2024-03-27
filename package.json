@@ -1,6 +1,6 @@
 {
   "name": "malayalam-fonts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A collection of open source Malayalam web fonts.",
   "main": "fonts.css",
   "scripts": {
@@ -23,7 +23,23 @@
     "Display",
     "Handwriting",
     "SMC",
-    "RIT"
+    "RIT",
+    "Chilanka",
+    "Gayathri",
+    "Malini",
+    "Manjari",
+    "Nupuram",
+    "Chingam",
+    "Ezhuthu",
+    "Karuna",
+    "Keraleeyam",
+    "Kutty",
+    "Meera",
+    "Panmana",
+    "Rachana",
+    "Sundar",
+    "TNJoy",
+    "Uroob"
   ],
   "author": "Ramesh Kunnappully",
   "license": "MIT",
