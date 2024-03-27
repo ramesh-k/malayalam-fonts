@@ -1,0 +1,9 @@
+/* RIT Uroob */
+
+@font-face {
+	font-family: 'RIT Uroob';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Uroob.woff2) format('woff2');
+}

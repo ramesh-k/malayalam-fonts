@@ -22,6 +22,8 @@ A collection of open source Malayalam web fonts.
 | [RIT Sundar](fonts/RIT-Sundar/) | 2.2 |
 | [RIT Karuna](fonts/RIT-Karuna/) | 1.1 |
 | [RIT Kutty](fonts/RIT-Kutty/) | 1.2 |
+| [RIT Keraleeyam](fonts/RIT-Keraleeyam/) | 3.1 |
+| [RIT Uroob](fonts/RIT-Uroob/) | 2.0.1 |
 | [RIT Chingam](fonts/RIT-Chingam/) | 1.0 |
 
 ## Installation

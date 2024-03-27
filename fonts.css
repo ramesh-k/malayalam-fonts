@@ -262,6 +262,36 @@
 	src: url(fonts/RIT-Kutty/RIT-Kutty-Bold.woff2) format('woff2');
 }
 
+/* RIT Keraleeyam Bold */
+
+@font-face {
+	font-family: 'RIT Keraleeyam';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(fonts/RIT-Keraleeyam/RIT-Keraleeyam-Bold.woff2) format('woff2');
+}
+
+/* RIT Keraleeyam Bold Italic */
+
+@font-face {
+	font-family: 'RIT Keraleeyam';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(fonts/RIT-Keraleeyam/RIT-Keraleeyam-BoldItalic.woff2) format('woff2');
+}
+
+/* RIT Uroob */
+
+@font-face {
+	font-family: 'RIT Uroob';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(fonts/RIT-Uroob/RIT-Uroob.woff2) format('woff2');
+}
+
 /* RIT Chingam */
 
 @font-face {
