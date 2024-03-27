@@ -7,7 +7,7 @@ A collection of open source Malayalam web fonts.
 | [Manjari](fonts/Manjari/) | 2.200 |
 | [Chilanka](fonts/Chilanka/) | 1.7 |
 | [Gayathri](fonts/Gayathri/) | 1.300 |
-| [Malini](fonts/Malini/) | 1.000-alpha.11 | (Variable Font) |
+| [Malini](fonts/Malini/) | 1.000-alpha.13 | (Variable Font) |
 | [Nupuram](fonts/Nupuram/) | 1.000-alpha.16 | (Variable Font) |
 | [Nupuram Calligraphy](fonts/Nupuram-Calligraphy/) | 1.000-alpha.16 | (Variable Font) |
 | [Nupuram Color](fonts/Nupuram-Color/) | 1.000-alpha.16 | (Variable Font) |

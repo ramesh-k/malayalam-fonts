@@ -1,6 +1,6 @@
 # Malini
 
-Version: `1.000-alpha.11`
+Version: `1.000-alpha.13`
 
 To learn about this font, please visit the [source](https://gitlab.com/smc/fonts/Malini).
 
