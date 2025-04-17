@@ -7,24 +7,24 @@ A collection of open source Malayalam web fonts.
 | [Manjari](fonts/Manjari/) | 2.200 |
 | [Chilanka](fonts/Chilanka/) | 1.7 |
 | [Gayathri](fonts/Gayathri/) | 1.300 |
-| [Malini](fonts/Malini/) | 1.000-alpha.13 | (Variable Font) |
-| [Nupuram](fonts/Nupuram/) | 1.000-alpha.16 | (Variable Font) |
-| [Nupuram Calligraphy](fonts/Nupuram-Calligraphy/) | 1.000-alpha.16 | (Variable Font) |
-| [Nupuram Color](fonts/Nupuram-Color/) | 1.000-alpha.16 | (Variable Font) |
-| [Nupuram Arrows Color](fonts/Nupuram-Arrows-Color/) | 1.000-alpha.16 |
-| [Nupuram Dots](fonts/Nupuram-Dots/) | 1.000-alpha.16 |
-| [Nupuram Display](fonts/Nupuram-Display/) | 1.000-alpha.16 |
-| [RIT Rachana](fonts/RIT-Rachana/) | 1.4.7 |
-| [RIT Meera New](fonts/RIT-MeeraNew/) | 1.5.2 |
-| [RIT Ezhuthu](fonts/RIT-Ezhuthu/) | 1.4 |
-| [RIT TN Joy](fonts/RIT-TNJoy/) | 1.5 |
-| [RIT Panmana](fonts/RIT-Panmana/) | 1.3 |
-| [RIT Sundar](fonts/RIT-Sundar/) | 2.2 |
-| [RIT Karuna](fonts/RIT-Karuna/) | 1.1 |
-| [RIT Kutty](fonts/RIT-Kutty/) | 1.2 |
-| [RIT Keraleeyam](fonts/RIT-Keraleeyam/) | 3.1 |
-| [RIT Uroob](fonts/RIT-Uroob/) | 2.0.1 |
-| [RIT Chingam](fonts/RIT-Chingam/) | 1.0 |
+| [Malini](fonts/Malini/) | 1.000-beta.8 | (Variable Font) |
+| [Nupuram](fonts/Nupuram/) | 1.000-beta.2 | (Variable Font) |
+| [Nupuram Calligraphy](fonts/Nupuram-Calligraphy/) | 1.000-beta.2 | (Variable Font) |
+| [Nupuram Color](fonts/Nupuram-Color/) | 1.000-beta.2 | (Variable Font) |
+| [Nupuram Arrows Color](fonts/Nupuram-Arrows-Color/) | 1.000-beta.2 |
+| [Nupuram Dots](fonts/Nupuram-Dots/) | 1.000-beta.2 |
+| [Nupuram Display](fonts/Nupuram-Display/) | 1.000-beta.2 |
+| [RIT Rachana](fonts/RIT-Rachana/) | 1.5.2 |
+| [RIT Meera New](fonts/RIT-MeeraNew/) | 1.6.2 |
+| [RIT Ezhuthu](fonts/RIT-Ezhuthu/) | 1.5.2 |
+| [RIT TN Joy](fonts/RIT-TNJoy/) | 1.6.2 |
+| [RIT Panmana](fonts/RIT-Panmana/) | 1.4.3 |
+| [RIT Sundar](fonts/RIT-Sundar/) | 2.3.1 |
+| [RIT Karuna](fonts/RIT-Karuna/) | 1.2.2 |
+| [RIT Kutty](fonts/RIT-Kutty/) | 1.3.2 |
+| [RIT Keraleeyam](fonts/RIT-Keraleeyam/) | 3.2.1 |
+| [RIT Uroob](fonts/RIT-Uroob/) | 2.1.1 |
+| [RIT Chingam](fonts/RIT-Chingam/) | 1.2.1 |
 
 ## Installation
 

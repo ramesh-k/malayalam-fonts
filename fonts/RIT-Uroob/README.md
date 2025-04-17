@@ -1,6 +1,6 @@
 # RIT Uroob
 
-Version: `2.0.1`
+Version: `2.1.1`
 
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/rit-uroob).
 

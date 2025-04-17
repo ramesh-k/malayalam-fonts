@@ -4,7 +4,7 @@ To learn about this font, please visit the [source](https://gitlab.com/rit-fonts
 
 ## Font Files
 
-Version: `1.5.2`
+Version: `1.6.2`
 
 * [RIT-MeeraNew.woff2](RIT-MeeraNew.woff2)
 

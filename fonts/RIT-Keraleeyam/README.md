@@ -1,6 +1,6 @@
 # RIT Keraleeyam
 
-Version: `3.1`
+Version: `3.2.1`
 
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/RIT-Keraleeyam).
 

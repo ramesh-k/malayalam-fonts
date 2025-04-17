@@ -1,6 +1,6 @@
 # RIT Kutty
 
-Version: `1.2`
+Version: `1.3.2`
 
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/Kutty).
 

@@ -1,6 +1,6 @@
 # RIT Rachana
 
-Version: `1.4.7`
+Version: `1.5.2 `
 
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/RIT-Rachana).
 

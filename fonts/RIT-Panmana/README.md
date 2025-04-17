@@ -4,7 +4,7 @@ To learn about this font, please visit the [source](https://gitlab.com/rit-fonts
 
 ## Font Files
 
-Version: `1.3`
+Version: `1.4.3`
 
 * [RIT-Panmana-Regular.woff2](RIT-Panmana-Regular.woff2)
 

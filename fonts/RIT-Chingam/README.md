@@ -1,6 +1,6 @@
 # RIT Chingam
 
-Version: `1.0`
+Version: `1.2.1`
 
 To learn about this font, please visit the [source](https://gitlab.com/rit-fonts/chingam).
 

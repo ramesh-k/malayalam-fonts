@@ -1,6 +1,6 @@
 # Nupuram Calligraphy
 
-Version: `1.000-alpha.16`
+Version: `1.000-beta.2`
 
 To learn about this font, please visit the [source](https://gitlab.com/smc/fonts/Nupuram).
 
