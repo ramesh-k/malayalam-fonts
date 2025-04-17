@@ -4,27 +4,33 @@ A collection of open source Malayalam web fonts.
 ## Fonts
 | **Font Family** | **Version** |  |
 |---|---|---|
-| [Manjari](fonts/Manjari/) | 2.200 |
 | [Chilanka](fonts/Chilanka/) | 1.7 |
 | [Gayathri](fonts/Gayathri/) | 1.300 |
 | [Malini](fonts/Malini/) | 1.000-beta.8 | (Variable Font) |
+| [Manjari](fonts/Manjari/) | 2.200 |
 | [Nupuram](fonts/Nupuram/) | 1.000-beta.2 | (Variable Font) |
+| [Nupuram Arrows Color](fonts/Nupuram-Arrows-Color/) | 1.000-beta.2 |
 | [Nupuram Calligraphy](fonts/Nupuram-Calligraphy/) | 1.000-beta.2 | (Variable Font) |
 | [Nupuram Color](fonts/Nupuram-Color/) | 1.000-beta.2 | (Variable Font) |
-| [Nupuram Arrows Color](fonts/Nupuram-Arrows-Color/) | 1.000-beta.2 |
-| [Nupuram Dots](fonts/Nupuram-Dots/) | 1.000-beta.2 |
 | [Nupuram Display](fonts/Nupuram-Display/) | 1.000-beta.2 |
-| [RIT Rachana](fonts/RIT-Rachana/) | 1.5.2 |
-| [RIT Meera New](fonts/RIT-MeeraNew/) | 1.6.2 |
-| [RIT Ezhuthu](fonts/RIT-Ezhuthu/) | 1.5.2 |
-| [RIT TN Joy](fonts/RIT-TNJoy/) | 1.6.2 |
-| [RIT Panmana](fonts/RIT-Panmana/) | 1.4.3 |
-| [RIT Sundar](fonts/RIT-Sundar/) | 2.3.1 |
-| [RIT Karuna](fonts/RIT-Karuna/) | 1.2.2 |
-| [RIT Kutty](fonts/RIT-Kutty/) | 1.3.2 |
-| [RIT Keraleeyam](fonts/RIT-Keraleeyam/) | 3.2.1 |
-| [RIT Uroob](fonts/RIT-Uroob/) | 2.1.1 |
+| [Nupuram Dots](fonts/Nupuram-Dots/) | 1.000-beta.2 |
+| [RIT Ala](fonts/RIT-Ala/) | 1.0 |
 | [RIT Chingam](fonts/RIT-Chingam/) | 1.2.1 |
+| [RIT Ezhuthu](fonts/RIT-Ezhuthu/) | 1.5.2 |
+| [RIT Indira](fonts/RIT-Indira/) | 1.0 |
+| [RIT Karuna](fonts/RIT-Karuna/) | 1.2.2 |
+| [RIT Keraleeyam](fonts/RIT-Keraleeyam/) | 3.2.1 |
+| [RIT Keram](fonts/RIT-Keram/) | 1.0 |
+| [RIT Kutty](fonts/RIT-Kutty/) | 1.3.2 |
+| [RIT Lasya](fonts/RIT-Lasya/) | 1.0 |
+| [RIT Lekha](fonts/RIT-Lekha/) | 1.0 |
+| [RIT Meera New](fonts/RIT-MeeraNew/) | 1.6.2 |
+| [RIT Panmana](fonts/RIT-Panmana/) | 1.4.3 |
+| [RIT Rachana](fonts/RIT-Rachana/) | 1.5.2 |
+| [RIT Sundar](fonts/RIT-Sundar/) | 2.3.1 |
+| [RIT TN Joy](fonts/RIT-TNJoy/) | 1.6.2 |
+| [RIT Thaara](fonts/RIT-Thaara/) | 1.0 |
+| [RIT Uroob](fonts/RIT-Uroob/) | 2.1.1 |
 
 ## Installation
 

@@ -1,0 +1,9 @@
+/* RIT Thaara */
+
+@font-face {
+	font-family: 'RIT Thaara';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RIT-Thaara.woff2) format('woff2');
+}

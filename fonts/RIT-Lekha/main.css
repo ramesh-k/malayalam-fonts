@@ -1,0 +1,9 @@
+/* RIT Lekha */
+
+@font-face {
+	font-family: 'RIT Lekha';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(RIT-Lekha.woff2) format('woff2');
+}

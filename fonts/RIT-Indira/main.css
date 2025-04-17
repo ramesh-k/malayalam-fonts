@@ -1,0 +1,9 @@
+/* RIT Indira */
+
+@font-face {
+	font-family: 'RIT Indira';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Indira-Bold.woff2) format('woff2');
+}

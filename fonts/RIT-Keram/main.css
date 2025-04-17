@@ -1,0 +1,9 @@
+/* RIT Keram */
+
+@font-face {
+	font-family: 'RIT Keram';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(RIT-Keram-Bold.woff2) format('woff2');
+}

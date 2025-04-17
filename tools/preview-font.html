@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Preview Fonts</title>
+      <link rel="stylesheet" href="../fonts.css">
+      <style>
+         body {
+         font-family: sans-serif;
+         padding: 2rem;
+         background: #f4f4f4;
+         }
+         textarea {
+         width: 100%;
+         height: 150px;
+         font-size: 3.5rem;
+         padding: 1rem;
+         margin-top: 1rem;
+         }
+         .controls {
+         display: flex;
+         gap: 1rem;
+         margin-top: 1rem;
+         flex-wrap: wrap;
+         }
+         .control-group {
+         margin-top: 1rem;
+         }
+         .slider-group {
+         display: none;
+         margin-top: 1rem;
+         }
+         label {
+         display: block;
+         margin-top: 0.5rem;
+         }
+         select, button, input[type="range"] {
+         padding: 0.5rem;
+         font-size: 1rem;
+         }
+         button.highlight {
+         background-color: #4CAF50;
+         color: white;
+         border: 1px solid #4CAF50;
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Preview Fonts</h1>
+      <textarea id="textArea">മലയാളത്തിൽ ടൈപ്പു ചെയ്യുക... Type in Malayalam</textarea>
+      <div class="control-group">
+         <label for="fontSelect">Choose a font:</label>
+         <select id="fontSelect"></select>
+      </div>
+      <div class="controls" id="styleButtons"></div>
+      <div class="font-size-group" style="margin-top: 1rem;">
+         <label for="fontSizeRange">Font Size (px): <span id="fontSizeValue">56</span></label>
+         <input type="range" id="fontSizeRange" min="10" max="100" value="56" step="1">
+      </div>
+      <div class="slider-group" id="sliderGroup">
+         <div id="wghtSlider">
+            <label for="wghtRange">Weight (wght): <span id="wghtValue">400</span></label>
+            <input type="range" id="wghtRange" min="100" max="900" value="400" step="1">
+         </div>
+         <div id="wdthSlider">
+            <label for="wdthRange">Width (wdth): <span id="wdthValue">100</span></label>
+            <input type="range" id="wdthRange" min="75" max="125" value="100" step="1">
+         </div>
+         <div id="slntSlider">
+            <label for="slntRange">Slant (slnt): <span id="slntValue">0</span></label>
+            <input type="range" id="slntRange" min="-15" max="0" value="0" step="1">
+         </div>
+      </div>
+      <script>
+         const textArea = document.getElementById('textArea');
+         const fontSelect = document.getElementById('fontSelect');
+         const styleButtons = document.getElementById('styleButtons');
+         const sliderGroup = document.getElementById('sliderGroup');
+         
+         const wghtRange = document.getElementById('wghtRange');
+         const wdthRange = document.getElementById('wdthRange');
+         const slntRange = document.getElementById('slntRange');
+         
+         const wghtValue = document.getElementById('wghtValue');
+         const wdthValue = document.getElementById('wdthValue');
+         const slntValue = document.getElementById('slntValue');
+         
+         const wghtSlider = document.getElementById('wghtSlider');
+         const wdthSlider = document.getElementById('wdthSlider');
+         const slntSlider = document.getElementById('slntSlider');
+         
+         const fontSizeRange = document.getElementById('fontSizeRange');
+         const fontSizeValue = document.getElementById('fontSizeValue');
+         
+         
+         let fontsJson = {};
+         let currentFont = null;
+         
+         function buildFontDropdown(fonts) {
+           fontSelect.innerHTML = '<option value="">Select Font</option>';
+           fonts.forEach((font, index) => {
+             const opt = document.createElement('option');
+             opt.value = font["font-family"];
+             opt.textContent = font["font-family"];
+             opt.dataset.index = index;
+             opt.dataset.type = font.type;
+             fontSelect.appendChild(opt);
+           });
+         }
+         
+         function buildStyleButtons(font) {
+           styleButtons.innerHTML = '';
+           if (!font || font.type === 'variable') return;
+         
+           let firstButton = null;
+         
+           font.styles.forEach((style, index) => {
+             const btn = document.createElement('button');
+             const fw = style['font-weight'] || 400;
+             const fs = style['font-style'] || 'normal';
+         
+             btn.textContent = `${fs === 'italic' ? 'Italic ' : ''}${fw}`;
+         
+             btn.onclick = () => {
+               const allButtons = styleButtons.querySelectorAll('button');
+               allButtons.forEach(b => b.classList.remove('highlight'));
+               btn.classList.add('highlight');
+               textArea.style.fontWeight = fw;
+               textArea.style.fontStyle = fs;
+             };
+         
+             if (index === 0) firstButton = btn;
+         
+             styleButtons.appendChild(btn);
+           });
+         
+           if (firstButton) firstButton.click();
+         }
+         
+         function applyVariableFont() {
+           const settings = [];
+         
+           if (wghtSlider.style.display !== 'none') {
+             const wght = wghtRange.value;
+             wghtValue.textContent = wght;
+             settings.push(`"wght" ${wght}`);
+           }
+         
+           if (wdthSlider.style.display !== 'none') {
+             const wdth = wdthRange.value;
+             wdthValue.textContent = wdth;
+             settings.push(`"wdth" ${wdth}`);
+           }
+         
+           if (slntSlider.style.display !== 'none') {
+             const slnt = slntRange.value;
+             slntValue.textContent = slnt;
+             settings.push(`"slnt" ${slnt}`);
+           }
+         
+           textArea.style.fontVariationSettings = settings.join(', ');
+         }
+         
+         fontSelect.addEventListener('change', () => {
+           const selected = fontSelect.selectedOptions[0];
+           const fontIndex = selected.dataset.index;
+           const font = fontsJson.fonts[fontIndex];
+           currentFont = font;
+         
+           textArea.style.fontFamily = `'${font["font-family"]}', sans-serif`;
+         
+           if (font.type === 'variable') {
+             const style = font.styles[0] || {};
+             let hasWght = !!style["font-weight"];
+             let hasWdth = !!style["font-stretch"];
+             let hasSlnt = style["font-style"] && style["font-style"].includes("oblique");
+         
+             sliderGroup.style.display = 'block';
+             wghtSlider.style.display = hasWght ? 'block' : 'none';
+             wdthSlider.style.display = hasWdth ? 'block' : 'none';
+             slntSlider.style.display = hasSlnt ? 'block' : 'none';
+         
+             textArea.style.fontStyle = 'normal';
+             applyVariableFont();
+           } else {
+             sliderGroup.style.display = 'none';
+             textArea.style.fontWeight = 400;
+             textArea.style.fontStyle = 'normal';
+             textArea.style.fontVariationSettings = '';
+           }
+         
+           buildStyleButtons(font);
+         });
+         
+         [wghtRange, wdthRange, slntRange].forEach(slider => {
+           slider.addEventListener('input', applyVariableFont);
+         });
+         
+         fontSizeRange.addEventListener('input', () => {
+         const size = fontSizeRange.value;
+         fontSizeValue.textContent = size;
+         textArea.style.fontSize = `${size}px`;
+         });
+         
+         
+         fetch('fonts.json')
+           .then(res => res.json())
+           .then(json => {
+             fontsJson = json;
+             buildFontDropdown(json.fonts);
+           })
+           .catch(err => {
+             console.error('Failed to load font.json:', err);
+           });
+      </script>
+   </body>
+</html>

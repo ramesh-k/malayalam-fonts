@@ -1,0 +1,305 @@
+{
+  "fonts": [
+    {
+      "font-family": "Manjari",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 100
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "Chilanka",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "Gayathri",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 100
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "Malini",
+      "type": "variable",
+      "styles": [
+        {
+          "font-style": "oblique 0deg -15deg",
+          "font-weight": "100 900",
+          "font-stretch": "75% 125%"
+        }
+      ]
+    },
+    {
+      "font-family": "Nupuram",
+      "type": "variable",
+      "styles": [
+        {
+          "font-style": "oblique 0deg -15deg",
+          "font-weight": "100 900",
+          "font-stretch": "75% 125%"
+        }
+      ]
+    },
+    {
+      "font-family": "Nupuram Calligraphy",
+      "type": "variable",
+      "styles": [
+        {
+          "font-weight": "100 900"
+        }
+      ]
+    },
+    {
+      "font-family": "Nupuram Color",
+      "type": "variable",
+      "styles": [
+        {
+          "font-weight": "100 900"
+        }
+      ]
+    },
+    {
+      "font-family": "Nupuram Arrows Color",
+      "type": "variable",
+      "styles": [
+        {}
+      ]
+    },
+    {
+      "font-family": "Nupuram Dots",
+      "type": "variable",
+      "styles": [
+        {}
+      ]
+    },
+    {
+      "font-family": "Nupuram Display",
+      "type": "variable",
+      "styles": [
+        {}
+      ]
+    },
+    {
+      "font-family": "RIT Rachana",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        },
+        {
+          "font-style": "italic",
+          "font-weight": 400
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        },
+        {
+          "font-style": "italic",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Meera New",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Ezhuthu",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT TN Joy",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        },
+        {
+          "font-style": "normal",
+          "font-weight": 800
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Panmana",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Sundar",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Karuna",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Kutty",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Keraleeyam",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        },
+        {
+          "font-style": "italic",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Uroob",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Chingam",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Thaara",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Lekha",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Lasya",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Ala",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 400
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Keram",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    },
+    {
+      "font-family": "RIT Indira",
+      "type": "normal",
+      "styles": [
+        {
+          "font-style": "normal",
+          "font-weight": 700
+        }
+      ]
+    }
+  ]
+}
