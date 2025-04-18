@@ -1,1 +1,364 @@
-@font-face{font-family:"Chilanka";font-style:normal;font-display:swap;font-weight:400;src:url('fonts/Chilanka/Chilanka-Regular.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Gayathri";font-style:normal;font-display:swap;font-weight:400;src:url('fonts/Gayathri/Gayathri-Regular.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Gayathri";font-style:normal;font-display:swap;font-weight:700;src:url('fonts/Gayathri/Gayathri-Bold.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Gayathri";font-style:normal;font-display:swap;font-weight:100;src:url('fonts/Gayathri/Gayathri-Thin.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Malini";src:url('fonts/Malini/Malini-VF.woff2') format("woff2-variations");font-weight:100 900;font-stretch:75% 125%;font-style:oblique 0deg -15deg}@font-face{font-family:"Manjari";font-style:normal;font-display:swap;font-weight:400;src:url('fonts/Manjari/Manjari-Regular.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Manjari";font-style:normal;font-display:swap;font-weight:700;src:url('fonts/Manjari/Manjari-Bold.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Manjari";font-style:normal;font-display:swap;font-weight:100;src:url('fonts/Manjari/Manjari-Thin.woff2') format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+0D01-0D7F,U+200C,U+200D,U+25CC}@font-face{font-family:"Nupuram";src:url('fonts/Nupuram/Nupuram-VF.woff2') format("woff2-variations");font-weight:100 900;font-stretch:75% 125%;font-style:oblique 0deg -15deg}@font-face{font-family:"Nupuram Arrows Color";src:url('fonts/Nupuram-Arrows-Color/Nupuram-Arrows-Color.colrv1.woff2') format("woff2")}@font-face{font-family:"Nupuram Calligraphy";src:url('fonts/Nupuram-Calligraphy/Nupuram-Calligraphy-VF.woff2') format("woff2-variations");font-weight:100 900}@font-face{font-family:"Nupuram Color";src:url('fonts/Nupuram-Color/Nupuram-Color.colrv1.woff2') format("woff2-variations");font-weight:100 900}@font-face{font-family:"Nupuram Display";src:url('fonts/Nupuram-Display/Nupuram-Display.woff2') format("woff2")}@font-face{font-family:"Nupuram Dots";src:url('fonts/Nupuram-Dots/Nupuram-Dots.woff2') format("woff2")}@font-face{font-family:'RIT Ala';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Ala/RIT-Ala.woff2') format('woff2')}@font-face{font-family:'RIT Chingam';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Chingam/RITChingam.woff2') format('woff2')}@font-face{font-family:'RIT Ezhuthu';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Ezhuthu/RIT-Ezhuthu-Regular.woff2') format('woff2')}@font-face{font-family:'RIT Indira';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Indira/RIT-Indira-Bold.woff2') format('woff2')}@font-face{font-family:'RIT Karuna';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Karuna/RIT-Karuna-Bold.woff2') format('woff2')}@font-face{font-family:'RIT Keraleeyam';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Keraleeyam/RIT-Keraleeyam-Bold.woff2') format('woff2')}@font-face{font-family:'RIT Keraleeyam';font-style:italic;font-weight:700;font-display:swap;src:url('fonts/RIT-Keraleeyam/RIT-Keraleeyam-BoldItalic.woff2') format('woff2')}@font-face{font-family:'RIT Keram';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Keram/RIT-Keram-Bold.woff2') format('woff2')}@font-face{font-family:'RIT Kutty';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Kutty/RIT-Kutty-Bold.woff2') format('woff2')}@font-face{font-family:'RIT Lasya';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Lasya/RIT-Lasya.woff2') format('woff2')}@font-face{font-family:'RIT Lekha';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Lekha/RIT-Lekha.woff2') format('woff2')}@font-face{font-family:'RIT Meera New';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-MeeraNew/RIT-MeeraNew.woff2') format('woff2')}@font-face{font-family:'RIT Panmana';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Panmana/RIT-Panmana-Regular.woff2') format('woff2')}@font-face{font-family:'RIT Rachana';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Rachana/RIT-Rachana-Regular.woff2') format('woff2')}@font-face{font-family:'RIT Rachana';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Rachana/RIT-Rachana-Bold.woff2') format('woff2')}@font-face{font-family:'RIT Rachana';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/RIT-Rachana/RIT-Rachana-Italic.woff2') format('woff2')}@font-face{font-family:'RIT Rachana';font-style:italic;font-weight:700;font-display:swap;src:url('fonts/RIT-Rachana/RIT-Rachana-BoldItalic.woff2') format('woff2')}@font-face{font-family:'RIT Sundar';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Sundar/RIT-Sundar.woff2') format('woff2')}@font-face{font-family:'RIT Thaara';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-Thaara/RIT-Thaara.woff2') format('woff2')}@font-face{font-family:'RIT TN Joy';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/RIT-TNJoy/RIT-tnjoy-regular.woff2') format('woff2')}@font-face{font-family:'RIT TN Joy';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-TNJoy/RIT-tnjoy-bold.woff2') format('woff2')}@font-face{font-family:'RIT TN Joy';font-style:normal;font-weight:800;font-display:swap;src:url('fonts/RIT-TNJoy/RIT-tnjoy-extrabold.woff2') format('woff2')}@font-face{font-family:'RIT Uroob';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/RIT-Uroob/RIT-Uroob.woff2') format('woff2')}
+/* Chilanka */
+
+@font-face {
+	font-family: "Chilanka";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url('fonts/Chilanka/Chilanka-Regular.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Gayathri */
+
+@font-face {
+	font-family: "Gayathri";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url('fonts/Gayathri/Gayathri-Regular.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Gayathri Bold */
+
+@font-face {
+	font-family: "Gayathri";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url('fonts/Gayathri/Gayathri-Bold.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Gayathri Thin */
+
+@font-face {
+	font-family: "Gayathri";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100;
+	src: url('fonts/Gayathri/Gayathri-Thin.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Malini */
+
+@font-face {
+	font-family: "Malini";
+	src: url('fonts/Malini/Malini-VF.woff2') format("woff2-variations");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	font-style: oblique 0deg -15deg;
+	}
+
+/* Manjari */
+
+@font-face {
+	font-family: "Manjari";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url('fonts/Manjari/Manjari-Regular.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Manjari Bold */
+
+@font-face {
+	font-family: "Manjari";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url('fonts/Manjari/Manjari-Bold.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Manjari Thin */
+
+@font-face {
+	font-family: "Manjari";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100;
+	src: url('fonts/Manjari/Manjari-Thin.woff2') format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C, U+200D, U+25CC;
+}
+
+/* Nupuram */
+
+@font-face {
+	font-family: "Nupuram";
+	src: url('fonts/Nupuram/Nupuram-VF.woff2') format("woff2-variations");
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	font-style: oblique 0deg -15deg;
+}
+
+/* Nupuram Arrows Color */
+
+@font-face {
+	font-family: "Nupuram Arrows Color";
+	src: url('fonts/Nupuram-Arrows-Color/Nupuram-Arrows-Color.colrv1.woff2') format("woff2");
+}
+
+/* Nupuram Calligraphy */
+
+@font-face {
+	font-family: "Nupuram Calligraphy";
+	src: url('fonts/Nupuram-Calligraphy/Nupuram-Calligraphy-VF.woff2') format("woff2-variations");
+	font-weight: 100 900;
+}
+
+/* Nupuram Color */
+
+@font-face {
+	font-family: "Nupuram Color";
+	src: url('fonts/Nupuram-Color/Nupuram-Color.colrv1.woff2') format("woff2-variations");
+	font-weight: 100 900;
+}
+
+/* Nupuram Display */
+
+@font-face {
+	font-family: "Nupuram Display";
+	src: url('fonts/Nupuram-Display/Nupuram-Display.woff2') format("woff2");
+}
+
+/* Nupuram Dots */
+
+@font-face {
+	font-family: "Nupuram Dots";
+	src: url('fonts/Nupuram-Dots/Nupuram-Dots.woff2') format("woff2");
+}
+
+/* RIT Ala */
+
+@font-face {
+	font-family: 'RIT Ala';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Ala/RIT-Ala.woff2') format('woff2');
+}
+
+/* RIT Chingam */
+
+@font-face {
+	font-family: 'RIT Chingam';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Chingam/RITChingam.woff2') format('woff2');
+}
+
+/* RIT Ezhuthu */
+
+@font-face {
+	font-family: 'RIT Ezhuthu';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Ezhuthu/RIT-Ezhuthu-Regular.woff2') format('woff2');
+}
+
+/* RIT Indira */
+
+@font-face {
+	font-family: 'RIT Indira';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Indira/RIT-Indira-Bold.woff2') format('woff2');
+}
+
+/* RIT Karuna */
+
+@font-face {
+	font-family: 'RIT Karuna';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Karuna/RIT-Karuna-Bold.woff2') format('woff2');
+}
+
+/* RIT Keraleeyam Bold */
+
+@font-face {
+	font-family: 'RIT Keraleeyam';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Keraleeyam/RIT-Keraleeyam-Bold.woff2') format('woff2');
+}
+
+/* RIT Keraleeyam Bold Italic */
+
+@font-face {
+	font-family: 'RIT Keraleeyam';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Keraleeyam/RIT-Keraleeyam-BoldItalic.woff2') format('woff2');
+}
+
+/* RIT Keram */
+
+@font-face {
+	font-family: 'RIT Keram';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Keram/RIT-Keram-Bold.woff2') format('woff2');
+}
+
+/* RIT Kutty */
+
+@font-face {
+	font-family: 'RIT Kutty';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Kutty/RIT-Kutty-Bold.woff2') format('woff2');
+}
+
+/* RIT Lasya */
+
+@font-face {
+	font-family: 'RIT Lasya';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Lasya/RIT-Lasya.woff2') format('woff2');
+}
+
+/* RIT Lekha */
+
+@font-face {
+	font-family: 'RIT Lekha';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Lekha/RIT-Lekha.woff2') format('woff2');
+}
+
+/* RIT Meera New */
+
+@font-face {
+	font-family: 'RIT Meera New';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-MeeraNew/RIT-MeeraNew.woff2') format('woff2');
+}
+
+/* RIT Panmana */
+
+@font-face {
+	font-family: 'RIT Panmana';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Panmana/RIT-Panmana-Regular.woff2') format('woff2');
+}
+
+/* RIT Rachana */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Rachana/RIT-Rachana-Regular.woff2') format('woff2');
+}
+
+/* RIT Rachana Bold */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Rachana/RIT-Rachana-Bold.woff2') format('woff2');
+}
+
+/* RIT Rachana Italic */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Rachana/RIT-Rachana-Italic.woff2') format('woff2');
+}
+
+/* RIT Rachana Bold Italic */
+
+@font-face {
+	font-family: 'RIT Rachana';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Rachana/RIT-Rachana-BoldItalic.woff2') format('woff2');
+}
+
+/* RIT Sundar */
+
+@font-face {
+	font-family: 'RIT Sundar';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Sundar/RIT-Sundar.woff2') format('woff2');
+}
+
+/* RIT Thaara */
+
+@font-face {
+	font-family: 'RIT Thaara';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-Thaara/RIT-Thaara.woff2') format('woff2');
+}
+
+/* RIT TN Joy */
+
+@font-face {
+	font-family: 'RIT TN Joy';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('fonts/RIT-TNJoy/RIT-tnjoy-regular.woff2') format('woff2');
+}
+
+/* RIT TN Joy Bold*/
+
+@font-face {
+	font-family: 'RIT TN Joy';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-TNJoy/RIT-tnjoy-bold.woff2') format('woff2');
+}
+
+/* RIT TN Joy Extra Bold*/
+
+@font-face {
+	font-family: 'RIT TN Joy';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url('fonts/RIT-TNJoy/RIT-tnjoy-extrabold.woff2') format('woff2');
+}
+
+/* RIT Uroob */
+
+@font-face {
+	font-family: 'RIT Uroob';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('fonts/RIT-Uroob/RIT-Uroob.woff2') format('woff2');
+}
+
