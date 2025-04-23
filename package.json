@@ -1,6 +1,6 @@
 {
   "name": "malayalam-fonts",
-  "version": "1.0.8-beta.1",
+  "version": "1.0.8",
   "description": "A collection of open source Malayalam web fonts.",
   "main": "fonts.css",
   "scripts": {
